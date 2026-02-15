@@ -1,0 +1,32 @@
+{
+  "name": "langchain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "dev": "tsx watch -r tsconfig-paths/register src/main.ts",
+    "build": "tsc",
+    "start": "node dist/main.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "@types/express": "^5.0.6",
+    "@types/node": "^25.2.3",
+    "nodemon": "^3.1.11",
+    "ts-node": "^10.9.2",
+    "tsconfig-paths": "^4.2.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@google/genai": "^1.41.0",
+    "@langchain/core": "^1.1.24",
+    "@langchain/google-genai": "^2.1.18",
+    "@langchain/openai": "^1.2.7",
+    "dotenv": "^17.3.1",
+    "groq-sdk": "^0.37.0"
+  }
+}
